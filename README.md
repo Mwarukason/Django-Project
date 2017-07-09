@@ -12,8 +12,8 @@ OS:Any.
 3. Run: "python manage.py runserver"
 4. Go to your browser and type: http://127.0.0.1:8000
 5. To access admin Dashboard:
-    5.1: Go to http://127.0.0.1:8000/admin
-    5.2: username: admin
-    5.3: password: admin@12345
+##  5.1: Go to http://127.0.0.1:8000/admin
+##  5.2: username: admin
+##  5.3: password: admin@12345
 
   Enjoy the....!!!!
