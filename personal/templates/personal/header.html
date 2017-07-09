@@ -30,7 +30,7 @@
   </head>
 
   <body class="body" style="background-color:#f6f6f6">
-	<div class="container" style="min-height:95%; width:72%">
+	<div class="container" style="min-height:100%; width:72%">
     <div class="navbar-wrapper" style="padding-top:10px;">
 
        <nav class="navbar navbar-inverse navbar-static-top">
@@ -61,10 +61,11 @@
    <div class="">
      <img src="{% static 'personal/images/calendar_banner.jpg' %}" alt="" style="width:100%;height:214px;">
    </div>
-		<div class="row">
+		<div class="row" >
 		  <div class="col-m-12">
-			<div class='container'>
+			<div class='container' style="width:100%;">
 			   {% block content %}
+
 			   {% endblock %}
 			</div>
 		  </div>
